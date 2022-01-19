@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+/* Header */
+h1, h2{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bio{
+    background-color: #1D3557;
+    color: #F1FAEE;
+    
+}
+.bio, br{
+    font-family: 'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+}
+.degree{
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* body */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.week{
+background-color: #1D3557;
+color: #F1FAEE;
+padding: 10px;
+border-radius: 15px 50px;
+width: fit-content
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
