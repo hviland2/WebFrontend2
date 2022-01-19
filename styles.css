@@ -35,9 +35,19 @@ background-color: #1D3557;
 color: #F1FAEE;
 padding: 10px;
 border-radius: 15px 50px;
-width: fit-content
+width: fit-content;
 }
 li{
+    margin: 10px;
+    background-color: #457B9D;
+    border-radius: 15px;
+    padding: 5px;
+    width: fit-content;
+}
+li, a{
     list-style-type: none;
     text-decoration: none;
+}
+a{
+    color: #F1FAEE;
 }
