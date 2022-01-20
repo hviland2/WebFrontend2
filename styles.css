@@ -40,7 +40,7 @@ width: fit-content;
 li{
     margin: 10px;
     background-color: #457B9D;
-    border-radius: 12copx;
+    border-radius: 12px;
     padding: 5px;
     width: fit-content;
 }
@@ -50,4 +50,15 @@ li, a{
 }
 a{
     color: #F1FAEE;
+}
+
+/* Links */
+
+li:hover{
+    background-color: #F1FAEE;
+    transition: 0.5s;
+    border: 1px solid #1D3557;
+}
+a:hover{
+    color: #1D3557;
 }
